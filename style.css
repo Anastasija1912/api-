@@ -1,0 +1,41 @@
+body {
+  font-family: cursive;
+  color:#3b302b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e2c4bc;
+}
+
+img {
+  width: 230px;
+  height: 400px;
+  object-fit: cover;
+  margin: 5px;
+  border: 1px solid #66564e;
+  border-radius: 15px;
+  box-shadow: 7px 6px 15px rgb(71, 62, 62);
+}
+
+.row {
+  justify-content: center;
+}
+
+.card{
+  color: rgb(97, 82, 82);
+  border: 1px solid #534545;
+  border-radius: 8px;
+  box-shadow: 15px 15px 25px rgba(36, 19, 14, 0.397) ;
+}
+
+.tilesWrap {
+  content: '';
+  position: absolute;
+  background: #a51616;
+  transform: skew(2deg, 2deg);
+}
+
+.search-bar {
+  margin-bottom: 35px;
+}
+
